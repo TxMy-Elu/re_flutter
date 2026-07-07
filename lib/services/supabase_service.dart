@@ -10,7 +10,7 @@ class SupabaseService {
     await Supabase.initialize(
       url: 'https://pcabklncvqwqrlhnrwda.supabase.co',
       anonKey:
-          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjYWJrbG5jdnF3cXJsaG5yd2RhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0OTY4MTEsImV4cCI6MjA5NDA3MjgxMX0.nipbRAwZMbiDU3OkFtzZhAx-1Yj0mApHNLRYxwLYHB8',
+          'SUPABASE_ANON_KEY_HERE',
     );
   }
 

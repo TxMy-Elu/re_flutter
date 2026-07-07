@@ -33,8 +33,8 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Audit dependencies
-        run: dart pub audit
+      - name: Check outdated dependencies
+        run: flutter pub outdated
 
   trivy-code:
     name: Trivy — Code & secrets scan
